@@ -15,10 +15,10 @@ I started out by writing an HTML page that has all of the elements necessary to 
 After this I added a JavasScript page that will help with the form submission and adding of taks onto the task list.  So far the JavaScript just sends a form using the JSON format.  I will add more to this page in later labs.  Once this was all done I hosted the webpage using github and AWS schools.  
 
 ### My Webpage
-![My Webpage](./img/Screenshot 2024-09-16 at 9.44.30 AM.png)
+![My Webpage](/img/Screenshot 2024-09-16 at 9.44.30 AM.png)
 
 ### JSON request
-![My Webpage with JSON Submission](./img/Screenshot 2024-09-16 at 9.45.52 AM.png)
+![My Webpage with JSON Submission](/img/Screenshot 2024-09-16 at 9.45.52 AM.png)
 
 ### File Descriptions
 
