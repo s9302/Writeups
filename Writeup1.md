@@ -7,46 +7,33 @@ Lab 1
 
 ## Executive Summary:
 
-In this this lab I uploaded and hosted a webpage that acts as a reminder page.  I used a mix of CSS, HTML, and JavaScript
+In this this lab I uploaded and hosted a webpage that acts as a reminder page.  I used a mix of CSS, HTML, and JavaScript to create the webpage.  The webpage isnt yet fully functional, but i will continue to work on it in the following labs to make it functional. 
 
 ## Design Overview:
 
-The following UML diagram shows the basic architecture of the widget application. The swimlanes in the UML show the actions taken by the different actors in the system.
+I started out by writing an HTML page that has all of the elements necessary to start out.  I then added in a CSS page that included lots of design elements.  These elements helped to enhance the pages overall appeal.  Overall the HTML and CSS pages helped to provide the backbone for my webpage.  
+After this I added a JavasScript page that will help with the form submission and adding of taks onto the task list.  So far the JavaScript just sends a form using the JSON format.  I will add more to this page in later labs.  Once this was all done I hosted the webpage using github and AWS schools.  
 
-### Example UML Caption or Title
-![Example UML](./img/example-UML.png)
+### My Webpage
+![My Webpage](./img/Screenshot 2024-09-16 at 9.44.30 AM.png)
 
-*Each lab indicates the type of UML that is expected in the writeup. Ensure such UMLs are included.*
-
-As indicated in the UML, all actions are initiated by the motivator which communicates with the front-end server. Each the server accesses the database by way of the biphasic louderberry protocol. Responses are then reformatted into JSON and returned to the motivator.
-
-The following screenshots show the User Endpoint, the Tasks Endpoint, and the Google Login.
-
-### User Endpoint
-![Example Screenshots](./img/user.png)
-
-### Tasks Endpoint
-![Example Screenshots](./img/tasks.png)
-
-### Google Login
-![Example Screenshots](./img/auth.png)
+### JSON request
+![My Webpage with JSON Submission](./img/Screenshot 2024-09-16 at 9.45.52 AM.png)
 
 ### File Descriptions
 
-* routes/auth.js - Contains the endpoints for logging the user in and out  
-* routes/tasks.js - Contains all the endpoints to perform the CRUD functions for the tasks  
-* routes/user.js - Contains the GET endpoint to get all the user data  
-* models/Task.js - Contains the task model to interact with the Mongo database  
-* mongoose.js - Creates the connection to the Mongo database  
-* mssqldb.js - Creates the connection to the Azure database  
-* passport.js - Creates the passport session
+* index.html - Contains the basic HTML formatting for the page
+* favicon.ico - This contains a favicon image of Jennifer Lawrence
+* script.js - Contains the JavaScript for the webpage
+* style.css - Contains the CSS styling for the webpage
+* docker-compose.yml - Is the the docker file the helps put it into a contatiner
+
 
 ## Questions:
 
-1. List three advantages to using a web API.
-    - The front end and back end can be developed at the same time
-    - Multiple front ends can use the same API back end
-    - Updates can be made to the front and or back end without affecting the other one
+What is the purpose of using Docker containers?
+Why is it useful to have both a development environment and a live server environment?
+What is the purpose of using a code versioning tool (i.e. Git)?
 
 1. What are the differences between these four HTTP methods: GET, POST, PUT, and DELETE? Which ones are idempotent?  
 
