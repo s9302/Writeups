@@ -31,38 +31,39 @@ After this I added a JavasScript page that will help with the form submission an
 
 ## Questions:
 
-What is the purpose of using Docker containers?
-Why is it useful to have both a development environment and a live server environment?
-What is the purpose of using a code versioning tool (i.e. Git)?
+### What is the purpose of using Docker containers?
+The purpose of using Docker containers is so that we have a set apart speace where all of the code can run together.  The way a TA explained it to me was kind of like a VM that is a lot smaller and only has the purpose of running whats in the container
+### Why is it useful to have both a development environment and a live server environment?
+Becuase having two enviroments lets you edit or change one without effecting the other.  I can edit my development enviroment and if anything goes wrong it won't crash my live server.  
+### What is the purpose of using a code versioning tool (i.e. Git)?
+We use git because it allows for coders to ee back on changes that they have made, they can also make branches to test out progams on the code.  It allows for many people to work on code and upload it to one main branch.  
+### What is the difference between a CSS rule with an element selector (i.e. h1,p,div etc.) and one with a class selector (i.e. .task, .task-done etc.)? When would you use each?
+element selectors select all of the elements of that type for example h1 classes on the other hand effect everything that is marked to have the certain class. 
+### What are the advantages of putting your styles in a separate .css stylesheet instead of in the <style> element of <head>?
+This allows you to write CSS that can effect and change multiple pages.  You can have a uniform CSS page for your entire website instead of writeing the same code multiple times.  
+### How do web browsers choose which CSS to use for an HTML element when the CSS rules contradict each other? What is the order of precedence for CSS rules?
+It is whatever was last said basically.  if you link two css sheets it will be the one thats put last that will take presidence.  
+### Why should you disable directory access for your server?
+This helps to keep information secure.  people can't access information in the directory that could be sensitive.  
 
-1. What are the differences between these four HTTP methods: GET, POST, PUT, and DELETE? Which ones are idempotent?  
-
-    GET is used to fetch data and does not have a request body. It is used only to get data and does not modify it in any way. 
-    
-    POST sends new data in the body of a request and does something to add new data to the API such as creating a new database record. 
-    
-    PUT is used to update an existing piece of information using the data in the body of the request such as changing a value from true to false of a task. 
-    
-    DELETE is used to indicate that data needs to be removed such as removing a task from a database because it has been completed.
-    
-    GET, PUT and DELETE are idempotent whereas POST is not non-idempotent
 
 ## Lessons Learned:
+### Docker Problem
+One of the problems that I had while doing this lab was setting up docker.  Docker is a complicated program that requires experience to work properly.  When I started this project I couldn't get Docker set up.  I spent a couple of hours on it, I eventually ended up going to one of the TAs to help me with my problem.  It ended up being that I hadn't set up the docker file correctly.  
 
-### JavaScript Comparisons  
+### Margins and Formatting
+Another problem that I had was getting the formatting and margins correct in the webpage.  I was trying to get the webpage to look good on a mobile screen.  I couldn't get the webpage to format correctly.  It was happening becuase I was trying to format using specific measurements instead of relative measurments that could change around depending on the size of the screen.  The solution was changing all of my measurments to be dynamic for individual screens.  
 
-JavaScript does extremely loose comparisons. Therefore if (thisVar == 0) will evaluate true if thisVar = 0 or null or “” or false. This problem often arises when doing an if statement where you want to check if something is not blank but 0 is a good value. To solve this problem use === or !==. These mean an exact comparison, not a loose comparison. Therefore if (thisVar === “”) and thisVar = 0 it will be false. On the other hand if (thisVar == “”) and thisVar = 0 it will evaluate true.
-
-*There should be 3 lessons learned in your write-up, not just one.*
-
+### Favicon
+Favicons are small images that are on the corner of the webpage tab.  I couldn't get my favicon to load.  This was due to the fact that I hadn't done a hard refresh.  I finally figured how to due so and once I did it the favicon loaded.  
 ## Conclusions :
 
-- Use nodejs to create an API
-- Install packages using npm
-- Create an SSL certificate
-- Create firewall rules to allow traffic
+- Put Favicons on webpages
+- Use CSS in all three ways of linking to HTML
+- Create and use Javascript
+- Create and input data into an HTML file
 
 ## References
 
-https://nodejs.org/docs/latest/api/  
-https://certbot.eff.org/  
+https://www.w3schools.com/html/default.asp
+https://csszengarden.com/
