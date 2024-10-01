@@ -1,5 +1,3 @@
-*This sample is intended to show the expected layout and length of a lab writeup. The application is fictional and many of the described actors and protocols don't exist. The diagrams and the accompanying text don't necessarily match. In your writeups, all components should exist, and there should be coherence between the text and the images.*
-
 ## Introduction:
 Spencer Smith  
 16 September 2024  
@@ -7,7 +5,7 @@ Lab 1
 
 ## Executive Summary:
 
-In this this lab I uploaded and hosted a webpage that acts as a reminder page.  I used a mix of CSS, HTML, and JavaScript to create the webpage.  The webpage isnt yet fully functional, but i will continue to work on it in the following labs to make it functional. 
+In this this lab I uploaded and hosted a webpage that acts as a reminder page.  I used a mix of CSS, HTML, and JavaScript to create the webpage.  The webpage isnt yet fully functional, but I will continue to work on it in the following labs to make it functional. 
 
 ## Design Overview:
 
