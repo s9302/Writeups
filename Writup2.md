@@ -67,13 +67,13 @@ I will use Bash scripts in the future to write programs and do things that I hav
 
 ## Lessons Learned:
 ### How DNS servers work
- The problem that I had was with tht DNS server was trying to get my CNAME record to work.  It was not redirecting to my original website.  This happened becuase I had redierected to the IP address adn not the website.  I changed the redierct to my orginal website.  
-
+ A problem that can be had with DNS servers is getting the cname to redirect coreectly. This happens when the redirect is put as the IP and not the website.  One can fix this by putting the redirect as the Website domain name and not the IP address.  
 ### CRUD Update
-I had another problem with creating the CRUD create function. I wasn't updateing the local storage and it caused the prgram not to createt eh new function on the screen.  I fixed the change by adding in a code snippet  which updated the local storage.  
+
+One can have problems with creating the CRUD create function. Not updating the local storage can cause the program to fail in displaying the new function on the screen. This issue can be resolved by adding a code snippet that updates the local storage. 
 
 ### UML Diagram
-The problem that I had with the UML diagram was with the depth of analysis.  I made the UML diagram and then went to the TA and he said that I hadn't put int he required detail about all of the funcions and put in the options for the different tasks.  I had to redo the entire UML diagram and add in all of the missing information. 
+One can have problems with the depth of analysis when creating a UML diagram. After making the UML diagram and consulting with the TA, it might be discovered that the required detail about all of the functions and options for different tasks was not included. This would necessitate redoing the entire UML diagram and adding all of the missing information.
 
 ## Lessons Learned :
 
