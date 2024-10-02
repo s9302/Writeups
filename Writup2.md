@@ -14,7 +14,7 @@ I started by makeing the backbone JavaScript for my page which sorted informatio
 After this I added a security certification to my website which now gives it the https protocol. I gave the site a redirect to tasklist.4hx.net so now I actually have a domain.  After this I made a Bashscript which if run would create a second website with the same code.  This will act as a failsafe if anything goes wrong with the original page.  
 
 ### UML
-![UML](./img/Lab_2.pdf)
+![UML](./img/Lab_2.png)
 ### My Webpage With CRUD Functions
 ![My Webpage](./img/Page_1.png)
 
