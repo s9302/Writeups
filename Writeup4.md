@@ -19,7 +19,7 @@ In the next part of the lab I made the backend of my API.  This included setting
 ![Postman testing](./img/Postman.png)
 
 ### UML
-![Postman testing](./img/Postman.png)
+![Postman testing](./img/Lab4.drawio.png)
 
 ### File Descriptions
 
